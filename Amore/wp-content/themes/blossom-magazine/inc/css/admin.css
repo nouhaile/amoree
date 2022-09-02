@@ -1,0 +1,124 @@
+/** Radio Image Button */
+.page-meta-box.form-table td{
+	padding: 5px;
+}
+
+.f13{
+	font-size: 13px !important; 
+	line-height: 16px
+}
+
+.radio-image-wrapper{
+	margin-right: 25px; 
+	float: left;
+}
+
+.hide-radio{
+	position: relative;
+	margin-bottom: 6px;
+}
+
+.hide-radio img, .hide-radio label{
+	display: block;
+}
+
+.hide-radio input[type="radio"]{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	opacity: 0;
+}
+
+.hide-radio input[type=radio] + label {
+	border: 3px solid #F1F1F1;
+}
+
+.hide-radio input[type=radio]:checked + label {
+  border: 3px solid #CCC;
+}
+/** Radio Image Button Ends */
+
+/** User Social Profile */
+.user-social-sortable-icons li.ui-sortable-handle {
+    width: auto;
+    background: #f5f5f5;
+    border: 1px solid #e5e5e5;
+    display: table;
+    clear: both;
+    padding: 20px;
+    margin: 10px;
+    cursor: move;
+    position: relative;
+}
+
+.user-social-sortable-icons li.ui-sortable-handle:before {
+    content: "\f545";
+    font-family: dashicons;
+    font-size: 16px;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    background: #e5e5e5;
+    text-align: center;
+    line-height: 25px;
+    position: absolute;
+    top: 0;
+    left: -10px;
+    margin: auto;
+    bottom: 0;
+}
+
+.user-social-sortable-icons li.ui-sortable-handle label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.user-social-sortable-icons li.ui-sortable-handle .description {
+    display: block;
+    margin-top: 5px;
+    cursor: auto;
+}
+/** User Social Profile Ends */
+
+/** Admin Review Dialog Box */
+.notice-info.review-message{
+    border-left-color: #f8478d;
+}
+.review-message .notice-text{
+    display: flex;
+    align-items: center;
+}
+.review-message .notice-text .logo-holder img{
+    width:100px;
+    margin-right: 20px;
+}
+
+.review-message .message-text{
+	margin-bottom: 10px;
+}
+.review-message .button-holder a{
+    margin-right: 25px;
+}
+
+#input_single_post_layout>label,
+#input_archive_layout>label,
+#input_home_layout>label,
+#input_slider_layout>label,
+#input_header_layout>label {
+    margin-top: 10px;
+}
+
+#sub-accordion-section-general_layout_settings .customizer-text {
+    margin-bottom: 10px;
+}
+
+#blossom_magazine_single_layout .inside .form-table tr:last-child td {
+    display: flex;
+}
+
+#input_layout_style>label,
+#input_post_sidebar_layout>label,
+#input_page_sidebar_layout>label {
+    padding: 3px;
+}

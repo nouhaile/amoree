@@ -1,0 +1,49 @@
+# Translation of Themes - Setto Lifestyle in French (France)
+# This file is distributed under the same license as the Themes - Setto Lifestyle package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-08-23 10:26:13+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: fr\n"
+"Project-Id-Version: Themes - Setto Lifestyle\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Setto Lifestyle is a Modern Multipurpose Business theme for Agency, Business, Finance, Consulting, Factory, Real Estate, Construction, Cleaning Service, Startup or any other individual website due to its adaptability. It looks perfect on all modern browsers, mobile, tablets, and any device, Theme is full of customization options and settings, you can change almost everything. Checkout Pro Version https://burgerthemes.com/demo/pro/setto-lifestyle/"
+msgstr "Setto Lifestyle est un thème d’affaires moderne et polyvalent pour l’agence, le commerce, la finance, le conseil, l’usine, l’immobilier, la construction, le service de nettoyage, les starts-up ou tout autre site personnel en raison de son adaptabilité. Il a une aspect parfait sur tous les navigateurs modernes, mobiles, tablettes, et tout appareil, Le thème est rempli d’options de personnalisation et de réglages, vous pouvez presque tout changer. Découvrez la version Pro https://burgerthemes.com/demo/pro/setto-lifestyle/"
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "Setto Lifestyle"
+msgstr "Setto Lifestyle"
+
+#: inc/customizer/customizer-pro/class-customize.php:76
+msgid "Get More Features in Setto Lifestyle Pro"
+msgstr "Obtenez plus de fonctionnalités avec Setto Lifestyle Pro"
+
+#: template-parts/sections/section-header.php:61
+msgid "Menu"
+msgstr "Menu"
+
+#: header.php:17
+msgid "Skip to content"
+msgstr "Aller au contenu"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://burgerthemes.com/setto-lifestyle-free/"
+msgstr "https://burgerthemes.com/setto-lifestyle-free/"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://burgerthemes.com/"
+msgstr "https://burgerthemes.com/"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "burgersoftware"
+msgstr "burgersoftware"

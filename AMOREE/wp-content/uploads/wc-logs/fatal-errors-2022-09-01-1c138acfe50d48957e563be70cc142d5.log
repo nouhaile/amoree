@@ -1,0 +1,14 @@
+2022-09-01T09:40:20+00:00 CRITICAL Maximum execution time of 30 seconds exceeded dans C:\xampp\htdocs\AMOREE\wp-content\plugins\woocommerce\src\Internal\Admin\Events.php à la ligne 9
+
+2022-09-01T09:40:29+00:00 CRITICAL Maximum execution time of 30 seconds exceeded dans C:\xampp\htdocs\AMOREE\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Shipping.php à la ligne 13
+
+2022-09-01T09:40:29+00:00 CRITICAL Maximum execution time of 30 seconds exceeded dans C:\xampp\htdocs\AMOREE\wp-includes\block-patterns\query-grid-posts.php à la ligne 9
+
+2022-09-01T09:40:32+00:00 CRITICAL Maximum execution time of 30 seconds exceeded dans C:\xampp\htdocs\AMOREE\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\ProductTopRated.php à la ligne 7
+
+2022-09-01T09:41:03+00:00 CRITICAL Maximum execution time of 30 seconds exceeded dans C:\xampp\htdocs\AMOREE\wp-admin\includes\class-wp-filesystem-direct.php à la ligne 82
+
+2022-09-01T14:04:32+00:00 CRITICAL Maximum execution time of 30 seconds exceeded dans C:\xampp\htdocs\AMOREE\wp-content\themes\astra\inc\lib\batch-processing\class-astra-wp-async-request.php à la ligne 8
+
+2022-09-01T14:04:44+00:00 CRITICAL Maximum execution time of 30 seconds exceeded dans C:\xampp\htdocs\AMOREE\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\FeaturedCategory.php à la ligne 7
+

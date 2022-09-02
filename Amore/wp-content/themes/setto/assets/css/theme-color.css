@@ -1,0 +1,331 @@
+body {
+    color: #222
+}
+
+a:hover,
+.btn-style {
+    color: var(--bs-primary)
+}
+
+.btn-style:hover {
+    background-color: var(--bs-primary);
+    color: #fff
+}
+
+.btn-style-medium:hover {
+    background-color: #223142;
+    border-color: #223142
+}
+
+.btn-style2-medium,
+.btn-style2 {
+    background-color: var(--bs-primary);
+    border: 2px solid var(--bs-primary)
+}
+
+.btn-style2-medium:hover,
+.btn-style2:hover {
+    background-color: transparent;
+    color: var(--bs-primary);
+    border-color: var(--bs-primary)
+}
+
+.btn-style3 {
+    background-color: var(--bs-primary)
+}
+
+.btn-style3:hover {
+    background-color: transparent;
+    color: var(--bs-primary);
+    border-color: var(--bs-primary)
+}
+
+.btn-style4 {
+    background-color: var(--bs-primary)
+}
+
+.btn-style4:hover {
+    background-color: #223142;
+    color: #fff
+}
+
+.swiper-buttons button:hover {
+    background-color: var(--bs-primary);
+    color: #fff;
+    -webkit-transition: all .3s ease-in-out 0s;
+    -o-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s
+}
+
+ul.social-icon li a:hover span svg {
+    color: #223142;
+    -webkit-transition: all .3s ease-in-out 0s;
+    -o-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s
+}
+
+.megamenu-content .mainwrap ul.main-menu li.menu-link a.link-title.active span.sp-link-title:after,
+.megamenu-content .mainwrap ul.main-menu li.menu-link a.link-title span.sp-link-title span {
+    background-color: var(--bs-primary)
+}
+
+.megamenu-content .mainwrap ul.main-menu li.menu-link a.link-title span.sp-link-title span:before {
+    border-top: 5px solid var(--bs-primary)
+}
+
+.header .header-area .header-main button.navbar-toggler:hover svg,
+.header .right-block-box ul.shop-element li.search-wrap .search-rap a:hover svg {
+    color: var(--bs-primary);
+    -webkit-transition: all .3s ease-in-out 0s;
+    -o-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s
+}
+
+.user-wrap .acc-desk a:hover span svg {
+    color: var(--bs-primary);
+    -webkit-transition: all .3s ease-in-out 0s;
+    -o-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s
+}
+
+.wishlist a.header-wishlist:hover span.wishlist-icon svg {
+    color: var(--bs-primary);
+    -webkit-transition: all .3s ease-in-out 0s;
+    -o-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s
+}
+
+.shopping-widget .shopping-cart a:hover span.cart-icon-wrap span.cart-icon svg {
+    color: var(--bs-primary);
+    -webkit-transition: all .3s ease-in-out 0s;
+    -o-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s
+}
+
+.shopping-widget .shopping-cart a:hover span.cart-icon-wrap span.bigcounter {
+    color: var(--bs-primary);
+    -webkit-transition: all .3s ease-in-out 0s;
+    -o-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s
+}
+
+.header .right-block-box ul.shop-element li.side-wrap.desktop-search form .form-search button:hover svg {
+    color: var(--bs-primary);
+    -webkit-transition: all .3s ease-in-out 0s;
+    -o-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s
+}
+
+.vegamenu-content .browse-cat {
+    background-color: var(--bs-primary)
+}
+
+.vegamenu-content .vegawrap {
+    border: 1px solid var(--bs-primary)
+}
+
+.vegamenu-content .vegawrap ul.vega-menu li.menu-link a.link-title:hover,
+.vegamenu-content .vegawrap ul.vega-menu li.menu-link ul.dropdown-submenu.sub-menu li.submenu-li a:hover,
+.vegamenu-content .vegawrap ul.vega-menu li.menu-link ul.dropdown-supmenu li.supmenu-li a:hover {
+    color: var(--bs-primary)
+}
+
+@media (max-width: 1199px) {
+    .vegamenu-content .browse-cat {
+        background-color: #fff
+    }
+
+    .vegamenu-content a.browse-cat[aria-expanded=false],
+    .vegamenu-content .vegawrap ul.vega-menu li.menu-link a.link-title.link-title-lg[aria-expanded=false] {
+        color: #222
+    }
+
+    .vegamenu-content a.browse-cat[aria-expanded=true],
+    .vegamenu-content .vegawrap ul.vega-menu li.menu-link a.link-title.link-title-lg[aria-expanded=true] {
+        color: var(--bs-primary)
+    }
+
+    .vegamenu-content .vegawrap {
+        border: none
+    }
+}
+
+.megamenu-content .mainwrap ul.main-menu li.menu-link a.link-title:hover,
+.megamenu-content .mainwrap ul.main-menu li.menu-link .dropdown-submenu li.submenu-li a:hover,
+.megamenu-content .mainwrap ul.main-menu li.menu-link .dropdown-submenu.banner-menu li.menu-banner:hover a.menu-banner-title,
+.megamenu-content .mainwrap ul.main-menu li.menu-link ul.dropdown-supmenu li.supmenu-li a:hover,
+.megamenu-content .mainwrap ul.main-menu li.menu-link ul.dropdown-supmenu li.supmenu-li a:before {
+    color: var(--bs-primary)
+}
+
+@media (max-width: 1199px) {
+
+    .megamenu-content a.browse-cat[aria-expanded=true],
+    .megamenu-content .mainwrap ul.main-menu li.menu-link a.link-title.link-title-lg[aria-expanded=true],
+    .megamenu-content .mainwrap ul.main-menu li.menu-link .dropdown-submenu li.submenu-li a:hover,
+    .megamenu-content .mainwrap ul.main-menu li.menu-link .dropdown-submenu.banner-menu li.menu-banner:hover a.menu-banner-title,
+    .megamenu-content .mainwrap ul.main-menu li.menu-link ul.dropdown-supmenu li.supmenu-li a:hover,
+    .megamenu-content .mainwrap ul.main-menu li.menu-link ul.dropdown-supmenu li.supmenu-li a:before {
+        color: var(--bs-primary)
+    }
+}
+
+.slider-content .home-slider .slide-image .slider-text-info>span.sub-title span.sub-title2 {
+    color: var(--bs-primary);
+    border-bottom: 2px solid var(--bs-primary)
+}
+
+.product-area .section-head .collection-url a:hover {
+    color: var(--bs-primary)
+}
+
+.product-variant-option .swatch-variant .swatch.Material .swatch-element input:checked+label,
+.product-variant-option .swatch-variant .swatch.Size .swatch-element input:checked+label {
+    border: 2px solid var(--bs-primary)
+}
+
+.product-action a,
+.woocommerce .product-action a.button {
+    background-color: var(--bs-primary)
+}
+
+.single-product-wrap .product-action a:hover span svg {
+    color: var(--bs-primary);
+    -webkit-transition: all .5s ease-in-out 0s;
+    -o-transition: all .5s ease-in-out 0s;
+    transition: all .5s ease-in-out 0s
+}
+
+.product-label span.new-title,
+.product-label span.sale-title {
+    background-color: #223142
+}
+
+.product-content .product-title a:hover,
+.product-content h6 a:hover {
+    color: var(--bs-primary)
+}
+
+.product-grid-list .single-product-wrap .product-content .price-box .percent-count {
+    color: #223142
+}
+
+.shop-product-wrap.grid-1 ul.product-view li.st-col-item .single-product-wrap .product-action a:hover {
+    border-color: var(--bs-primary)
+}
+
+.special-slider.owl-theme .owl-nav button,
+.collection-slider.owl-theme .owl-nav button {
+    background-color: var(--bs-primary)
+}
+
+.special-slider.owl-theme .owl-nav button:hover,
+.collection-slider.owl-theme .owl-nav button:hover {
+    border-color: var(--bs-primary);
+    color: var(--bs-primary);
+    background-color: transparent
+}
+
+@media (max-width: 991px) {
+    .single-product-wrap .product-action a {
+        background-color: var(--bs-primary)
+    }
+}
+
+.deal-section .deal-slider .single-product-wrap .product-content .price-box span.new-price {
+    color: var(--bs-primary)
+}
+
+.timer-section ul.contdown_row li.countdown_section,
+.offer-code-area {
+    background-color: var(--bs-primary)
+}
+
+.product_details_info .pro-detail-action .product-actions .pro-detail-button a.wishlist:hover svg {
+    color: var(--bs-primary);
+    -webkit-transition: all .3s ease-in-out 0s;
+    -o-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s
+}
+
+.shop-product-list-wrap .product-layout-list .product-content .product-action a {
+    background-color: var(--bs-primary);
+    border: 1px solid var(--bs-primary)
+}
+
+.product-list-item .single-product-wrap .product-content .product-action a {
+    background-color: var(--bs-primary)
+}
+
+.product-view-mode .change-view.active,
+.product-view-mode .change-view:hover {
+    color: var(--bs-primary)
+}
+
+.home-about .home-about-area ul.about-ul li.about-li.about-content .about-text-area .sub-title span.rating-main span.svg-icon svg {
+    color: var(--bs-primary)
+}
+
+.home-about .home-about-area ul.about-ul li.about-li.about-content .about-text-area .sub-title span.rating-main span.title {
+    color: var(--bs-primary)
+}
+
+.newsletter-area .newsletter ul.newsletter-ul li.newsletter-li.service ul.service-ul li.service-li .icon-area a.icon svg {
+    color: var(--bs-primary)
+}
+
+.newsletter-area .newsletter ul.newsletter-ul li.newsletter-li.news-banner .banner-area .banner-text span.sub-title {
+    color: var(--bs-primary)
+}
+
+.newsletter-area .newsletter ul.newsletter-ul li.newsletter-li.service ul.service-ul li.service-li:hover .icon-area {
+    background-color: var(--bs-primary);
+    -webkit-transition: all .3s ease-in-out 0s;
+    -o-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s
+}
+
+.newsletter-area .newsletter ul.newsletter-ul li.newsletter-li.service ul.service-ul li.service-li:hover .icon-area a.icon svg {
+    color: #fff;
+    -webkit-transition: all .3s ease-in-out 0s;
+    -o-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s
+}
+
+.testimonial-area .testi-m-area .testimonial-slider ul.slick-dots li button {
+    background-color: var(--bs-primary)
+}
+
+.footer-top-area .footer-service ul.service-ul li.service-li .service-icon span.icon svg {
+    color: var(--bs-primary)
+}
+
+.footer-top-area .footer-list-wrap ul.footer-list li.ftlink-li:nth-child(3) ul.footer-sublist li.ftsublink-li:last-child a {
+    color: #223142;
+    border-bottom: 1px solid #223142
+}
+
+.footer-top-area .company-details-area ul.company-ul li.company-li:hover a,
+.footer-top-area .company-details-area ul.company-ul li.company-li:hover span.icon svg {
+    color: var(--bs-primary);
+    -webkit-transition: all .3s ease-in-out 0s;
+    -o-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s
+}
+
+.footer-top-area .footer-list-wrap ul.footer-list li.ftlink-li ul.footer-sublist li.ftsublink-li a.ft-sublink:hover {
+    color: var(--bs-primary)
+}
+
+.footer-bottom-area {
+    background-color: var(--bs-primary)
+}
+
+ul.breadcrumb-list li a {
+    color: var(--bs-primary)
+}
+
+.cmt-info-wrap .comment-info .comment-avtar .avtar-cmt,
+.cmt-info-wrap .comment-info .comment-avtar .avtar-cmt .cmt-auth {
+    background-color: var(--bs-primary)
+}

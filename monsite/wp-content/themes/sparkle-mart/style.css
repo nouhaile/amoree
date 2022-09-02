@@ -1,0 +1,430 @@
+/*
+Theme Name:     Sparkle Mart
+Theme URI:      https://sparklewpthemes.com/wordpress-themes/sparkle-mart
+Author:         sparklewpthemes
+Author URI:     https://sparklewpthemes.com
+Description:    Sparkle Mart is a clean user-friendly and feature-rich best free eCommerce SparkleStore child WordPress themes. The themes designed and developed especially for online shopping, eCommerce store websites. Sparkle Mart is one of the most accessible eCommerce online store WordPress themes which can easily accommodate all type of users with no coding skills to advanced or normal web developers. Sparkle Mart includes excellent features for eCommerce website and practices of all type of eCommerce business, themes have included more advanced features like one-click demo data import, webpage layout, preloader, advanced theme color, customizer based theme options, page builder-friendly design, individual page &  post layout options also sparkle mart is fully compatible with WooCommerce and some other external plugins like YITH WooCommerce Wishlist, YITH WooCommerce Quick View, WOOF – Products Filter for WooCommerce, WooCommerce Variation Swatches, Jetpack, Contact Form 7 and many more plugins. if you face any problem while using our theme, you can refer to our theme documentation (http://docs.sparklewpthemes.com/sparklestore/) or contact our friendly support team (https://sparklewpthemes.com/support/) or Check demo at https://demo.sparklewpthemes.com/sparklestore/sparkle-mart/ and Read theme details at https://sparklewpthemes.com/wordpress-themes/sparkle-mart
+Version:        1.0.3
+Tested up to:   6.0
+Requires PHP:   7.0
+License:        GNU General Public License v3 or later
+License URI:    http://www.gnu.org/licenses/gpl-3.0.html
+Template:       sparklestore
+Text Domain:    sparkle-mart
+Tags:           one-column, two-columns, right-sidebar, left-sidebar, custom-header, custom-background, custom-menu, translation-ready, featured-images, theme-options, custom-logo, e-commerce, footer-widgets
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Sparkle Mart is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Sparklewpthemes is distributed under the terms of the GNU GPL v3 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.header-middle-inner {
+    padding: 50px 0;
+}
+
+.breadcrumbs-wrap {
+    padding: 50px 15px;
+    position: relative;
+    text-align: left;
+}
+
+.woocommerce a.added_to_cart,
+.woocommerce a.product_type_simple,
+.woocommerce a.button.add_to_cart_button,
+.woocommerce a.button.product_type_grouped,
+.woocommerce a.button.product_type_external,
+.woocommerce a.button.product_type_variable {
+    padding: 0px 20px;
+    padding-left: 60px;
+    font-size: 14px;
+}
+.woocommerce .store_products_items_info2 a.added_to_cart, .woocommerce .store_products_items_info2 a.product_type_simple, .woocommerce .store_products_items_info2 a.button.add_to_cart_button, .woocommerce .store_products_items_info2 a.button.product_type_grouped, .woocommerce .store_products_items_info2 a.button.product_type_external, .woocommerce .store_products_items_info2 a.button.product_type_variable {
+    padding: 0px 15px;
+}
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button{
+    line-height: 40px;
+}
+
+.sub-footer,
+.sub-top-footer,
+.footer.footer,
+.middle-footer-area,
+.widget-area,
+.content-area,
+.breadcrumbs-wrap{
+    background-color: transparent !important;
+}
+.sub-footer,
+.sub-footer-inner .coppyright,
+.footer-widgets .widget a,
+.footer-widgets .widget .widget-title{
+    color: #313131 !important;
+}
+.footer-widgets .widget .widget-title{
+    border-bottom: none;
+}
+
+.middle-footer-inner {
+    border-top: 1px solid #ebebeb;
+    padding-top: 40px;
+}
+
+.widget_nav_menu ul li:before{
+    content: "";
+    display: none;
+}
+
+.footer-widgets .widget ul li {
+    padding: 5px 0px 5px 0px;
+}
+.sub-footer{
+    border-top: 1px solid #ebebeb;
+}
+
+.store_products_items_info2 {
+    display: none;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li,
+.woocommerce div.product .woocommerce-tabs .panel{
+    border: 1px solid;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li,
+.woocommerce div.product .woocommerce-tabs ul.tabs::before{
+    border-bottom: 0;
+}
+ul.catwithproduct li.product,
+.store_products_item_body{
+    border-radius: 0;
+}
+
+ul.catwithproduct li.product,
+ul.catwithproduct {
+    margin: 0;
+    padding: 0;
+}
+
+ul.catwithproduct li {
+    padding: 0;
+}
+.layout_three .blocktitlewrap{
+    margin-left: 0;
+}
+.layout_three .blocktitlewrap .blocktitle{
+    text-align: left;
+    display: block;
+    background: none;
+}
+.layout_three .blocktitle p,
+.layout_three .blocktitle h2 {
+    color: #000;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.catwithproduct[data-layout='slider']{
+    display: block;
+}
+.categorproducts .categoryproductslider.no .productwrap{
+    width: 100%;
+}
+
+.woocommerce ul.products li.product .price ins, 
+.store_products_item_details .price ins, 
+.woocommerce div.product p.price ins, 
+.woocommerce div.product span.price ins {
+    float: none;
+    margin-right: unset;
+}
+.widget-pagination{
+    margin-top: 15px;
+}
+a.sparkle-overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/** category widgets extends */
+.layout2 .storeproductlist[data-column="1"],
+.layout2 .storeproductlist.category-style-2[data-column="1"]{
+    grid-template-columns: repeat(1, 1fr);
+}
+.layout2 .storeproductlist[data-column="2"],
+.layout2 .storeproductlist.category-style-2[data-column="2"]{
+    grid-template-columns: repeat(2, 1fr);
+}
+.layout2 .storeproductlist[data-column="3"],
+.layout2 .storeproductlist.category-style-2[data-column="3"]{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.layout2 .storeproductlist[data-column="4"],
+.layout2 .storeproductlist.category-style-2[data-column="4"]{
+    grid-template-columns: repeat(4, 1fr);
+}
+.layout2 .storeproductlist[data-column="5"],
+.layout2 .storeproductlist.category-style-2[data-column="5"]{
+    grid-template-columns: repeat(5, 1fr);
+}
+.layout2 .storeproductlist[data-column="6"],
+.layout2 .storeproductlist.category-style-2[data-column="6"]{
+    grid-template-columns: repeat(6, 1fr);
+}
+ul.single-catproducts li.product, 
+ul.products li.product,
+ul.tabsproduct li.product, 
+ul.catwithproduct li.product, 
+ul.storeproductlist li.product, 
+ul.productarea li.product{
+    margin-bottom: 0;
+}
+.category-style-4 .product.product-category .woocommerce-loop-category__title,
+.category-style-3 .product.product-category .woocommerce-loop-category__title{
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: 0;
+}
+.category-style-4 .product.product-category .woocommerce-loop-category__title{
+    background: transparent;
+}
+.category-style-3 .products-cat-image img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+.layout2  .storeproductlist[data-column="6"] .products-cat-image,
+.layout2  .storeproductlist[data-column="5"] .products-cat-image {
+    height: 120px;
+}
+
+.layout2  .storeproductlist[data-column="5"] .woocommerce-loop-category__title .count,
+.layout2  .storeproductlist[data-column="6"] .woocommerce-loop-category__title .count,
+.layout2  .storeproductlist[data-column="5"] .product.product-category .woocommerce-loop-category__title,
+.layout2  .storeproductlist[data-column="6"] .product.product-category .woocommerce-loop-category__title{
+    font-size: 11px;
+    margin: 0;
+}
+.category-style-2 .products-cat-image img{
+    object-fit: contain;
+}
+
+.category-style-4 .product.product-category a img{
+    border-radius: 100%;
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    border: 1px solid #ecececad;
+    box-shadow: 0 2px 2px 0 rgb(155 155 155 / 25%);
+}
+
+.category-style-4.storeproductlist li.product {
+    background: none;
+    border: none;
+    box-shadow: none;
+    text-align: center;
+}
+.category-style-4 li{
+    text-align: center;
+}
+
+/** service section */
+.gallery .services_item {
+    padding: 35px 10px;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+    text-align: center;
+}
+.services_wrapper.layout_two .service-title-items-wrapper {
+    display: flex;
+    background: #f2f2f2;
+    padding: 25px 20px;
+}
+
+.services_wrapper.layout_two .blocktitlewrap {
+    width: 300px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.services_wrapper.layout_two .gallery {
+    width: 100%;
+    margin: 0;
+    margin-left: 2%;
+}
+
+.services_wrapper.layout_two .blocktitle {
+    background: transparent;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.services_wrapper.layout_two .services_item {
+    display: flex;
+    gap: 1em;
+    text-align: left;
+    padding: 0;
+    background: transparent;
+    box-shadow: none;
+    align-items: center;
+}
+
+.services_wrapper.layout_two .services_item .services_content h3 {
+    margin: 0;
+}
+
+.services_wrapper.layout_two .services_icon {
+    background: #ca9e7b;
+    padding: 10px;
+    margin: 0 !important;
+    border-radius: 5px;
+    line-height: 0;
+    font-size: 24px !important;
+    color: #fff !important;
+    display: flex;
+    justify-content: center;
+    height: 45px;
+    align-items: center;
+    width: 45px;
+}
+
+.services_wrapper.layout_two .blocktitle p {
+    margin: 0;
+    color: inherit;
+}
+
+.services_wrapper.layout_two .blocktitle h2 {
+    color: inherit;
+    margin: 0 !important;
+    text-align: left;
+    color: #000;
+}
+/** footer contact form */
+footer .service-title-items-wrapper div.wpcf7 {
+    width: 100%;
+}
+
+footer .service-title-items-wrapper form.wpcf7-form.init p {
+    margin: 0;
+}
+
+footer input[type='email'],
+footer input[type='text']{
+    border: 1px solid #cbcbcb;
+}
+footer .services_wrapper.layout_two .gallery,
+footer .services_wrapper.layout_two .blocktitlewrap{
+    width: 50%;
+}
+.category .chosen-container {
+    max-width: 300px;
+}
+
+.footer-widgets .widget ul li:before,
+.footer-widgets .widget ul li{
+    color: #000 !important;
+}
+
+
+
+.store_products_item_details h3{
+    word-wrap: break-word;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+* .focus a{    outline: 1px dotted; }
+.store_products_item .flash>span {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    width: 63px;
+    height: 19px;
+    font-size: 12px;
+    line-height: unset;
+    text-align: center;
+    border-radius: 0;
+    z-index: 1;
+}
+.woocommerce ul.products li.product .on_sale, .store_products_item_body .flash .on_sale {
+    right: 0;
+    top: 0;
+}
+.store_products_item .flash>.store_sale_label {
+    left: 0;
+    top: 0;
+    font-size: 10px;
+    line-height: 2;
+}
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+    line-height: 1.7;
+}
+.woocommerce td.product-quantity .quantity{
+    display: flex;
+}
+.wpcf7 form .wpcf7-response-output{
+    color: #000;
+}
+/** responsive */
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 920px) {
+
+}
+@media (max-width: 768px) {
+    .services_wrapper.layout_two .blocktitle h2,
+    .services_wrapper.layout_two .services_item form {
+        text-align: center;
+    }
+
+    .services_wrapper.layout_two .blocktitle,
+    .services_wrapper.layout_two .blocktitlewrap,
+    form.wpcf7-form.init p label,
+    .layout2 .storeproductlist,
+    .services_wrapper.layout_two .service-title-items-wrapper,
+    .gallery{
+        display: block;
+    }
+
+    footer .services_wrapper.layout_two .gallery, footer .services_wrapper.layout_two .blocktitlewrap{
+        width: 100%;
+    }
+
+    .wpcf7 input[type="submit"], .wpcf7 input[type="button"]{
+        margin-top: 15px;
+    }
+    .wpcf7-spinner{
+        display: none;
+    }
+    form.submitting .wpcf7-spinner {
+        visibility: visible;
+        display: inline-block;
+    }
+    
+}
+
+@media (max-width: 620px) {
+
+}
+@media (max-width: 480px) {
+
+}

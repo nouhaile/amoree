@@ -1,0 +1,22 @@
+.envato-kit-161-caption figcaption{
+	margin-top: -40px;
+}
+.envato-kit-161-fbox .elementor-flip-box__back{
+	padding: 10px;
+}
+.envato-kit-161-fbox .elementor-flip-box__back .elementor-flip-box__layer__overlay{
+background-color: rgba(255,255,255,0.91)
+}
+
+.envato-kit-161-slideshow .elementor-main-swiper{
+	height: 85vh !important;
+}
+.envato-kit-161-tabs .elementor-tabs{
+	text-align: initial;
+	
+}
+
+.envato-kit-161-tabs .elementor-tab-title{
+	border-radius: 4px;
+	
+}

@@ -1,0 +1,180 @@
+# Translation of Themes - Blossom Chic in French (France)
+# This file is distributed under the same license as the Themes - Blossom Chic package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-09-01 21:27:14+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: fr\n"
+"Project-Id-Version: Themes - Blossom Chic\n"
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "Blossom Chic"
+msgstr "Blossom Chic"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Blossom Chic is a child theme of Blossom Feminine WordPress blog theme to create stunning, lively and eye catching website. Whether you want to share your expert fashion tips, your favorite recipes or create a lifestyle, travel, food, beauty, make-up, coaching, wedding, portfolio, personal, girly, parenting or cooking blog, Blossom Chic is an ideal choice for you. You can easily customize your website using the typography and color features. You can change the color to pink, purple, or any color you like. Blossom Chic is mobile friendly and fully responsive to ensure your website looks great in different sized devices. Beautifully placed Instagram section can be used to show your Instagram account and increase your followers. The advertisement widget in the theme will help you easily monetize your blog. The well placed Newsletter section will help you to grow your email list and keep in touch with your visitors. Blossom Chic is SEO friendly and speed optimized. The theme is translation ready and supports RTL and WooCommerce plugin for your utmost benefit. In addition, Blossom Chic is backed by world class, one-on-one support, and a super active team of developers and designers ready to help! Check demo: https://blossomthemes.com/theme-demo/?theme=blossom-chic, read documentation: https://docs.blossomthemes.com/docs/blossom-chic/, and get support: https://blossomthemes.com/support-ticket/."
+msgstr "Blossom Chic est un thème enfant du thème de blog WordPress Blossom Feminine pour créer un site attrayant, animé et accrocheur. Que vous souhaitiez partager vos conseils experts en mode, vos recettes préférées ou créer un blog de style de vie, voyage, nourriture, beauté, maquillage, coaching, mariage, portfolio, personnel, parental ou de cuisine, Blossom Chic est un choix idéal pour vous. Vous pouvez facilement personnaliser votre site web en utilisant les fonctionnalités de typographie et couleur. Vous pouvez modifier la couleur en rose, violet, ou n’importe quelle couleur que vous aimez. Blossom Chic est optimisé pour mobile et entièrement responsive pour garantir que votre site Web aura fière allure sur différents appareils. La section Instagram magnifiquement placée peut être utilisée pour afficher votre compte Instagram et augmenter vos abonnés. Le widget de publicité dans le thème vous aidera à monétiser facilement votre blog. La section de newsletter bien placée vous aidera à faire fructifier votre liste d’e-mails et à rester en contact avec vos visiteurs. Blossom Chic est optimisé pour le SEO et la vitesse. Le thème est prêt pour la traduction et prend en charge le RTL et l’extension WooCommerce pour votre plus grand bénéfice. En outre, Blossom Chic est soutenu par une équipe-support de classe mondiale et une équipe de développeurs et de designers super actifs prêts à vous aider ! Découvrez la démo : https://blossomthemes.com/theme-demo/?theme=blossom-chic lisez la documentation : https://docs.blossomthemes.com/docs/blossom-chic/ et obtenez du support : https://blossomthemes.com/support-ticket/."
+
+#: functions.php:532
+msgid "Close"
+msgstr "Fermer"
+
+#: functions.php:472 functions.php:533
+msgid "Mobile"
+msgstr "Mobile"
+
+#: functions.php:320
+msgid "Secondary color of the theme."
+msgstr "Couleur secondaire du thème."
+
+#: functions.php:319
+msgid "Secondary Color"
+msgstr "Couleur secondaire"
+
+#: functions.php:529
+msgid "primary menu toggle button"
+msgstr "Bouton de bascule sur le menu primaire"
+
+#: functions.php:488 functions.php:549
+msgid "search toggle button"
+msgstr "Bouton de bascule sur la recherche"
+
+#: functions.php:464
+msgid "secondary menu toggle button"
+msgstr "Bouton de bascule sur menu secondaire"
+
+#: functions.php:1039
+msgid " Blossom Chic | Developed By "
+msgstr "Blossom Chic - Développé par "
+
+#: functions.php:1042
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: functions.php:1042
+msgid " Powered by %s"
+msgstr "Propulsé par %s"
+
+#: functions.php:639
+msgctxt "Site Title Font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:638
+msgctxt "Secondary Font: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are characters in your language that are not supported
+#. by respective fonts, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:637
+msgctxt "Primary Font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:432
+msgid "Choose the layout of the slider for your site."
+msgstr "Choisissez la mise en page du diaporama pour votre site."
+
+#: functions.php:410 functions.php:431
+msgid "Slider Layout"
+msgstr "Mise en page du diaporama"
+
+#: functions.php:397
+msgid "This is the layout for blog index page."
+msgstr "Ceci est la mise en page pour la page d'index du blog."
+
+#: functions.php:375 functions.php:396
+msgid "Home Page Layout"
+msgstr "Mise en page de page d'accueil"
+
+#: functions.php:362
+msgid "This is the layout for header."
+msgstr "Ceci est la mise en page pour l’en-tête."
+
+#: functions.php:340 functions.php:361
+msgid "Header Layout"
+msgstr "Mise en page d'en-tête"
+
+#: functions.php:331
+msgid "Layout Settings"
+msgstr "Réglages de mise en page"
+
+#: functions.php:299
+msgid "Primary color of the theme."
+msgstr "Couleur primaire du thème."
+
+#: functions.php:298
+msgid "Primary Color"
+msgstr "Couleur primaire"
+
+#: functions.php:199
+msgid "Change the font size of your site."
+msgstr "Changez la taille de police du titre de votre site."
+
+#: functions.php:198
+msgid "Font Size"
+msgstr "Taille de police"
+
+#: functions.php:176
+msgid "Secondary font of the site."
+msgstr "Police secondaire du site."
+
+#: functions.php:175
+msgid "Secondary Font"
+msgstr "Police secondaire"
+
+#: functions.php:154
+msgid "Primary font of the site."
+msgstr "Police principale du site."
+
+#: functions.php:153
+msgid "Primary Font"
+msgstr "Police principale"
+
+#: functions.php:133
+msgid "Typography"
+msgstr "Typographie"
+
+#: functions.php:125
+msgid "Customize Typography, Header Image & Background Image"
+msgstr "Personnalisez la typographie, l'image de l'en-tête et l'image d’arrière-plan"
+
+#: functions.php:124
+msgid "Appearance Settings"
+msgstr "Réglages d'apparence"
+
+#: functions.php:106
+msgid "Documentation Link: %1$sClick here.%2$s"
+msgstr "Lien de documentation : %1$sCliquez ici.%2$s"
+
+#: functions.php:104
+msgid "Demo Link: %1$sClick here.%2$s"
+msgstr "Lien de démo : %1$sCliquez ici.%2$s"
+
+#: functions.php:91
+msgid "Demo & Documentation"
+msgstr "Démo et documentation"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://blossomthemes.com/"
+msgstr "https://blossomthemes.com/"
+
+#. Author of the theme
+#: functions.php:1040
+#, gp-priority: low
+msgid "Blossom Themes"
+msgstr "Blossom Themes"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://blossomthemes.com/themes/blossom-chic-free-wordpress-theme"
+msgstr "https://blossomthemes.com/themes/blossom-chic-free-wordpress-theme"
